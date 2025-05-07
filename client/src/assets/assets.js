@@ -69,8 +69,10 @@ import vanilla_muffins_image from "./vanilla_muffins_image.png";
 import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
+import stationary_image from "./stationary2.png";
 
 export const assets = {
+
   logo,
   search_icon,
   remove_icon,
@@ -120,9 +122,9 @@ export const categories = [
     bgColor: "#F0F5DE",
   },
   {
-    text: "Instant Food",
-    path: "Instant",
-    image: maggi_image,
+    text: "Stationary",
+    path: "Stationary",
+    image: stationary_image,
     bgColor: "#E1F5EC",
   },
   {
@@ -702,7 +704,7 @@ export const dummyProducts = [
   {
     _id: "in01f25u",
     name: "Maggi Noodles 280g",
-    category: "Instant",
+    category: "Stationary",
 
     price: 55,
     offerPrice: 50,
